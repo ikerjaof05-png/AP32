@@ -1,0 +1,12 @@
+1 Hecho
+2 Hecho
+3 mkdir ventas marketing desarrollo dirección
+4 En el primer caso se crearían 3 directorios diferentes mientras que en el segundo se crearía un directorio dentro de otro
+5 cd ventas touch enero febrero marzo
+6 cd .. cp ventas/* desarrollo/
+7 cd marketing cp ~/Downloads/AP32/desarrollo/* ~/Downloads/AP32/marketing/2026/
+8 cd .. cd ventas cp ~/Downloads/AP32/marketing/2026/*ero  ~/Downloads/AP32/ventas/2025/
+9 cd ~/Downloads/AP32/desarrollo cp ~/Downloads/AP32/ventas/2025/*  ~/Downloads/AP32/desarrollo/ventas_2025/
+10 rm -r ~/Downloads/AP32/ventas/2025
+11 mv ~/Downloads/AP32/desarrollo/ventas_2025 ~/Downloads/AP32/desarrollo/ventas2025
+12 mv ~/Downloads/AP32/desarrollo/ventas2025 ~/Downloads/AP32/desarrollo/v_2025
